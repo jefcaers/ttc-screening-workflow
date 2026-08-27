@@ -4,6 +4,7 @@ title: "Reference-class screening workflow for lithium and copper mining investm
 authors:
   - family-names: Caers
     given-names: Jef
+    orcid: "https://orcid.org/0000-0003-0262-9905"
     affiliation: "Stanford Mineral-X, Stanford University"
 version: "1.0.0"
 date-released: "2026-08-27"
@@ -15,6 +16,7 @@ preferred-citation:
   authors:
     - family-names: Caers
       given-names: Jef
+      orcid: "https://orcid.org/0000-0003-0262-9905"
   journal: "Mineral Economics"
   year: 2026
   notes: "Under submission. Update volume/issue/DOI when available."
