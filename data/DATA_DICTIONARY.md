@@ -58,10 +58,14 @@ column widths in twips — for document layout only), and `cap` (caption).
 One array of 42 rows (1 header + 41 policy events) spanning 17 countries,
 2007–2026. Columns: Country, Year, Lever (Nationalization / Export restriction /
 Tax-royalty / Local content), Regime (orthodox / interventionist / crisis), Named
-instrument, Primary source. **Data status:** every `Primary source` cell is
-currently `[CHECK]` — the legal citations are being finalized before submission.
-The event coding itself (country, year, lever, instrument, regime) is complete and
-is what the country-risk hazards are estimated from.
+instrument, Primary source. **Data status:** 40 of the 41 `Primary source` cells
+carry a verified citation (statute/decree/statutory-instrument number and gazette
+date where a codified instrument exists; the authoritative government announcement,
+cabinet directive, or court record otherwise). One cell remains `[CHECK]` — the
+Zimbabwe 2025 lithium-concentrate export tax, whose rate and enacting instrument are
+inconsistent across sources. The event coding itself (country, year, lever,
+instrument, regime) is complete and is what the country-risk hazards are estimated
+from.
 
 ## `table5_regen.json`
 

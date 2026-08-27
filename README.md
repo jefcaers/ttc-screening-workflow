@@ -153,9 +153,12 @@ script is a complete, auditable statement of its own inputs. `rf_data.json` is a
 produced artifact (rewritten by `make_results_figs.py`).
 
 **Data status.** The policy-event primary-source citations
-(`policy_event_table.json`, `Policy_Event_Register.md`) are marked `[CHECK]`
-pending final citation before journal submission; the event coding itself is
-complete. The copper curation register and the era-sourcing memo — internal
+(`policy_event_table.json`, `Policy_Event_Register.md`) are filled for 40 of the
+41 events; one (the Zimbabwe 2025 lithium-concentrate export tax) is still marked
+`[CHECK]` pending confirmation of its rate and enacting instrument. The event
+coding itself is complete, and the register flags two items for review (a
+year/instrument date mismatch on the DRC entry, and four rows that share a single
+instrument). The copper curation register and the era-sourcing memo — internal
 working documents with candid review notes — are **not** part of this public
 release; the per-case confidence tier they assign is preserved in the `conf`
 fields of the data tables, and sanitized versions are available on request.
