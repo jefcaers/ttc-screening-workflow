@@ -1,0 +1,179 @@
+{
+ "T1": [
+  [
+   "Project",
+   "FID",
+   "Sanction CapEx",
+   "Realized ratio",
+   "Outcome"
+  ],
+  [
+   "Olaroz S1 (Orocobre)",
+   "2012",
+   "US$229M",
+   "x1.75",
+   "producing; profitable in boom"
+  ],
+  [
+   "Mt Cattlin (Galaxy)",
+   "2010",
+   "US$70M",
+   "x1.30",
+   "shut 2013 on price; restart 2016"
+  ],
+  [
+   "Mt Marion (Neometals/Ganfeng)",
+   "2015",
+   "US$90M",
+   "x1.15",
+   "producing through boom"
+  ],
+  [
+   "Pilgangoora (Pilbara)",
+   "2017",
+   "US$180M",
+   "x1.17",
+   "survived trough; boom winner"
+  ],
+  [
+   "Altura Pilgangoora",
+   "2017",
+   "US$110M",
+   "x1.30",
+   "receivership 2020; equity wiped"
+  ],
+  [
+   "AMG Mibra (Brazil)",
+   "2017",
+   "US$60M",
+   "x1.05",
+   "on budget; steady"
+  ],
+  [
+   "Nemaska Whabouchi",
+   "2018",
+   "US$880M",
+   "x1.45",
+   "C$375M shortfall; CCAA, zero production"
+  ],
+  [
+   "Bald Hill (Tawana/Alita)",
+   "2018",
+   "US$42M",
+   "x1.25",
+   "administration 2019 on price"
+  ],
+  [
+   "Wodgina concentrator (MinRes)",
+   "2018",
+   "US$420M",
+   "x1.10",
+   "mothballed 2019; JV sale monetized"
+  ],
+  [
+   "Cauchari-Olaroz (LAC/Ganfeng)",
+   "2019",
+   "US$565M",
+   "x1.73",
+   "producing 2023 into price collapse"
+  ]
+ ],
+ "T2": [
+  [
+   "Project",
+   "FID",
+   "Sanction CapEx",
+   "Realized ratio",
+   "Outcome",
+   "Conf"
+  ],
+  [
+   "Caserones (JX/Mitsui)",
+   "2010",
+   "US$2.0B",
+   "x2.10",
+   "chronic ramp; control sold 2023",
+   "high"
+  ],
+  [
+   "Ministro Hales (Codelco)",
+   "2010",
+   "~US$2.3B",
+   "x1.30",
+   "roaster ramp issues",
+   "med"
+  ],
+  [
+   "Sierra Gorda (KGHM/Sumitomo)",
+   "2011",
+   "US$2.9B",
+   "x1.40",
+   "below design; writedowns; exit 2022",
+   "high"
+  ],
+  [
+   "El Teniente NML (Codelco)",
+   "2011",
+   "~US$3.3B",
+   "x1.60",
+   "2015 suspension; restructured",
+   "low"
+  ],
+  [
+   "Escondida OGP1 (BHP)",
+   "2012",
+   "~US$3.8B",
+   "x1.10",
+   "delivered",
+   "low"
+  ],
+  [
+   "Chuquicamata UG (Codelco)",
+   "2012",
+   "~US$4.2B",
+   "x1.31",
+   "slow underground ramp",
+   "med"
+  ],
+  [
+   "Antucoya (AMSA/Marubeni)",
+   "2012",
+   "~US$1.7B",
+   "x1.12",
+   "suspended for review; completed",
+   "med"
+  ],
+  [
+   "Encuentro Oxides (AMSA)",
+   "2015",
+   "US$0.64B",
+   "x1.01",
+   "on time, on budget",
+   "med"
+  ],
+  [
+   "Spence Growth Option (BHP)",
+   "2017",
+   "US$2.46B",
+   "x1.02",
+   "near budget; COVID slip",
+   "med"
+  ],
+  [
+   "Quebrada Blanca 2 (Teck/Sumitomo)",
+   "2018",
+   "US$5.2B",
+   "x1.67",
+   "~US$8.7B final; ramp problems",
+   "high"
+  ],
+  [
+   "Rajo Inca (Codelco Salvador)",
+   "2019",
+   "~US$1.3B",
+   "x1.38",
+   "producing 2023-24 after delays",
+   "low"
+  ]
+ ]
+}

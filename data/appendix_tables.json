@@ -1,0 +1,167 @@
+{
+ "A1": {
+  "headers": [
+   "AACE class",
+   "Estimate maturity",
+   "AACE 47R-11 band (P10 / P90)",
+   "s_1 (log-σ) used"
+  ],
+  "rows": [
+   [
+    "5",
+    "scoping / order-of-magnitude",
+    "−50% / +100%",
+    "0.45"
+   ],
+   [
+    "4",
+    "study / concept",
+    "−30% / +50%",
+    "0.34"
+   ],
+   [
+    "3",
+    "feasibility",
+    "−20% / +30%",
+    "0.24"
+   ],
+   [
+    "2",
+    "budget / control",
+    "−15% / +20%",
+    "0.15"
+   ],
+   [
+    "1",
+    "tender-ready",
+    "−10% / +15%",
+    "0.09"
+   ]
+  ],
+  "widths": [
+   1600,
+   2900,
+   2900,
+   1960
+  ],
+  "cap": "Table A1. Cost-engine class-to-σ mapping. s_1 is the inside-view log-dispersion assigned to each AACE estimate class, calibrated within the RP 47R-11 mining accuracy ranges (which are stated at an 80 percent confidence interval)."
+ },
+ "A2": {
+  "headers": [
+   "Sanction year",
+   "Reference Li₂CO₃ (US$/t)",
+   "Central demand-growth outlook",
+   "Primary source"
+  ],
+  "rows": [
+   [
+    "2009–2010",
+    "≈ 6,160 (deck)",
+    "≈ 6.3%/yr total; Li-ion ≈ 13%/yr",
+    "USGS MYB-2010; Orocobre DFS 2011 (Roskill)"
+   ],
+   [
+    "2012",
+    "≈ 6,750",
+    "≈ 11%/yr, 2012–2017",
+    "USGS MYB-2012 (Roskill)"
+   ],
+   [
+    "2015",
+    "≈ 6,500",
+    "9.5–14%/yr, 2015–2020",
+    "USGS MYB-2015"
+   ],
+   [
+    "2017",
+    "≈ 7,400",
+    "≈ 14%/yr",
+    "USGS MCS-2017"
+   ],
+   [
+    "2018",
+    "≈ 14,000",
+    "EV-led; first oversupply warnings",
+    "USGS MCS-2018; IEA GEO 2018"
+   ],
+   [
+    "2019",
+    "≈ 9,500",
+    "forecasts cut; oversupply realized",
+    "USGS MCS-2019/2020"
+   ]
+  ],
+  "widths": [
+   1500,
+   2400,
+   3200,
+   2260
+  ],
+  "cap": "Table A2. Era parameter register, lithium cohort (summary). Reference price and central demand outlook per sanction vintage; the full register with scenario weights and dated sources ships as supplementary material."
+ },
+ "A3": {
+  "headers": [
+   "Sanction year",
+   "Reference LME copper (US$/t)",
+   "Market-balance / demand outlook",
+   "Primary source"
+  ],
+  "rows": [
+   [
+    "2008",
+    "≈ 6,956",
+    "China-led growth; modest surplus",
+    "USGS MCS-2008; ICSG"
+   ],
+   [
+    "2010",
+    "≈ 7,533",
+    "post-crisis rebound; small surplus",
+    "USGS MCS-2010; ICSG"
+   ],
+   [
+    "2011",
+    "≈ 8,814",
+    "supercycle peak; deficit narrative",
+    "USGS MCS-2011; ICSG"
+   ],
+   [
+    "2012",
+    "≈ 7,950",
+    "third consecutive deficit; turn expected",
+    "USGS MCS-2012/2013; ICSG"
+   ],
+   [
+    "2015",
+    "≈ 5,501",
+    "bear turn; 2015 surplus expected",
+    "USGS MCS-2015; ICSG"
+   ],
+   [
+    "2017",
+    "≈ 6,162",
+    "+1.0% consumption; ≈ 160 kt surplus",
+    "USGS MCS-2017; ICSG"
+   ],
+   [
+    "2018",
+    "≈ 6,525",
+    "near balance; electrification emerging",
+    "USGS MCS-2018; ICSG"
+   ],
+   [
+    "2019",
+    "≈ 6,005",
+    "electrification demand narrative",
+    "USGS MYB-2019; ICSG"
+   ]
+  ],
+  "widths": [
+   1500,
+   2400,
+   3200,
+   2260
+  ],
+  "cap": "Table A3. Era parameter register, copper cohort (summary). Reference price is the USGS annual-average LME level at the sanction date; balance calls are the then-current ICSG view, preserved as published."
+ }
+}

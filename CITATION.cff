@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the accompanying paper."
+title: "Reference-class screening workflow for lithium and copper mining investments — code and data"
+authors:
+  - family-names: Caers
+    given-names: Jef
+    affiliation: "Stanford Mineral-X, Stanford University"
+version: "1.0.0"
+date-released: "2026-08-27"
+license: MIT
+repository-code: "https://github.com/<your-account>/<repo>"   # TODO: set on first push
+preferred-citation:
+  type: article
+  title: "From reference-class cost priors to investment choices: a back-tested screening workflow for lithium and copper projects"
+  authors:
+    - family-names: Caers
+      given-names: Jef
+  journal: "Mineral Economics"
+  year: 2026
+  notes: "Under submission. Update volume/issue/DOI when available."

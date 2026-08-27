@@ -1,0 +1,52 @@
+========================================================================================
+DRIVER MODEL  log(overrun) ~ drivers   (n=21, combined cohorts)
+========================================================================================
+  intercept                   b=+0.170  (90% CI +0.075,+0.260) *   multiplier x1.18
+  HW novelty (per level)      b=-0.019  (90% CI -0.186,+0.131)     multiplier x0.98
+  CHEM plant scope            b=-0.003  (90% CI -0.261,+0.226)     multiplier x1.00
+  REM logistics               b=+0.360  (90% CI +0.140,+0.536) *   multiplier x1.43
+  BOOM sanction               b=-0.006  (90% CI -0.113,+0.101)     multiplier x0.99
+  residual sd (log): 0.124   R^2: 0.69
+
+MARGINAL EFFECTS (mean overrun with flag vs without; unadjusted)
+  HW novelty >=1      with x1.51   without x1.27   marginal multiplier x1.19   (n_with=7)
+  CHEM plant scope    with x1.64   without x1.30   marginal multiplier x1.27   (n_with=3)
+  REM logistics       with x1.67   without x1.18   marginal multiplier x1.41   (n_with=7)
+  BOOM sanction       with x1.33   without x1.38   marginal multiplier x0.96   (n_with=13)
+  NOTE: in this sample HW, CHEM and REM travel together (all big-overrun
+  projects carry two or three of them); n=21 cannot separate their shares.
+
+LEAVE-ONE-OUT: conditional prior vs unconditional reference class
+case               ratio    uncond band in?      cond band in?  width shrink
+Olaroz '12          1.75   1.00- 1.69   n    1.24- 1.93   Y     x1.00
+MtCattlin '10       1.30   1.00- 1.74   Y    0.97- 1.40   Y     x0.58
+MtMarion '15        1.15   1.01- 1.75   Y    0.99- 1.44   Y     x0.61
+Pilgangoora '17     1.17   1.01- 1.75   Y    0.98- 1.42   Y     x0.58
+Altura '17          1.30   1.00- 1.74   Y    0.97- 1.39   Y     x0.56
+Mibra '17           1.05   1.02- 1.75   Y    1.00- 1.43   Y     x0.59
+Nemaska '18         1.45   1.00- 1.73   Y    1.42- 2.19   Y     x1.05
+BaldHill '18        1.25   1.00- 1.75   Y    0.97- 1.40   Y     x0.57
+Wodgina '18         1.10   1.01- 1.75   Y    0.99- 1.42   Y     x0.59
+Cauchari '19        1.73   1.00- 1.70   n    1.27- 2.02   Y     x1.08
+Caserones '10       2.10   1.02- 1.63   n    1.23- 1.76   n     x0.87
+MinistroHales '10   1.30   1.00- 1.74   Y    0.91- 1.34   Y     x0.58
+SierraGorda '11     1.40   1.00- 1.74   Y    1.48- 2.17   n     x0.93
+TenienteNML '11     1.60   1.00- 1.71   Y    1.37- 2.07   Y     x0.98
+EscondidaOGP1 '12   1.10   1.01- 1.75   Y    0.99- 1.42   Y     x0.59
+ChuquiUG '12        1.31   1.00- 1.74   Y    0.90- 1.33   Y     x0.58
+Antucoya '12        1.12   1.01- 1.75   Y    0.99- 1.42   Y     x0.59
+Encuentro '15       1.01   1.03- 1.74   n    1.03- 1.46   n     x0.60
+SpenceSGO '17       1.02   1.02- 1.74   n    1.02- 1.46   n     x0.60
+QB2 '18             1.67   1.00- 1.71   Y    1.38- 2.14   Y     x1.07
+RajoInca '19        1.38   1.00- 1.74   Y    0.96- 1.37   n     x0.55
+
+coverage: unconditional 16/21, conditional 16/21
+mean 80% band width shrink under conditioning: x0.72
+mean log-score gain from conditioning: +0.23 nats/case
+
+WORKED PREDICTIONS (full-sample fit, 80% bands):
+  mature-vendor, concentrate-only, easy site, off-boom P50 x1.18  band x1.01-x1.39
+  one novel unit op, chemical plant, remote, off-boom  P50 x1.66  band x1.42-x1.95
+  bespoke hardware (HW=2), chemical plant, remote, boom P50 x1.62  band x1.38-x1.90
+
+Codings are authors' judgment (med confidence); curate before client use.

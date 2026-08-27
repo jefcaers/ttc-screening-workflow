@@ -1,0 +1,5 @@
+# Reproducibility environment for the mineral-investment screening workflow.
+# Tested with Python 3.11. Pin exact versions if you need bit-identical output.
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7

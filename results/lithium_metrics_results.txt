@@ -1,0 +1,44 @@
+==============================================================================
+LAYER 1 — COST MODULE (probabilistic forecast quality)
+==============================================================================
+PIT values: 0.82 0.55 0.38 0.38 0.52 0.67 0.64 0.38 0.79 0.26
+PIT uniformity KS: stat=0.28 p=0.35  (p>0.10 = no detectable miscalibration at this n)
+mean PIT = 0.54  (0.5 = unbiased; <0.5 = posterior still too optimistic)
+mean CRPS (log-ratio, lower=better):
+   RC       0.095
+   inside   0.186
+   flat10   0.236
+   rule1.4  0.164
+skill vs inside-only: 49%   vs flat ±10%: 60%   vs ×1.4 rule: 42%
+sharpness (mean 80% band width, ratio units): RC 0.95 vs inside 0.62
+coverage 80% band: RC 10/10 (target 8)   inside 7/10
+
+==============================================================================
+LAYER 2 — DECISION ENGINE
+==============================================================================
+cost-weighted verdict loss (US$M; exposure enter=1.0 stage=0.3 walk=0; missed-upside capture chi=0.5):
+   system 721 | always-enter 1476 | always-walk 1074 | random 1242 | oracle 0
+   -> system captures 51% of the always-enter -> oracle improvement
+commission errors (entered, lost): ['Altura Pilgangoora']
+omission errors (didn't enter, won): ['Olaroz S1 (Orocobre)', 'Mt Marion (Neometals/Ganfeng)', 'Wodgina concentrator (MinRes)']
+Spearman(RAV, realized NPV) = 0.36;  era-block bootstrap 90% CI [0.05, 0.63]
+top-3 portfolio realized value: system $507M | random $201M | oracle $1788M
+verdict fragility under supply-CAGR ±2pp: 1/10 flip  (Bald Hill (Tawana/Alita))
+
+==============================================================================
+LAYER 3 — ATTRIBUTION & COMPLEMENTARITY
+==============================================================================
+Sobol top-driver hit rate: 8/10 (misses are the capex-decided cases, structurally)
+   Mt Cattlin (Galaxy)          decider=price  sobol=price  auditP(ovr>25%)=50%  -> caught
+   Altura Pilgangoora           decider=price  sobol=price  auditP(ovr>25%)=53%  -> caught
+   Nemaska Whabouchi            decider=capex  sobol=price  auditP(ovr>25%)=52%  -> caught
+   Bald Hill (Tawana/Alita)     decider=price  sobol=price  auditP(ovr>25%)=36%  -> caught
+   Cauchari-Olaroz (LAC/Ganfeng) decider=capex  sobol=price  auditP(ovr>25%)=60%  -> caught
+complementarity: 5/5 failures caught by Sobol OR cost audit jointly
+
+==============================================================================
+LAYER 4 — VALIDITY
+==============================================================================
+effective n ~ 3.2 (see study); all CIs above use era-block bootstrap accordingly
+not runnable offline: leakage audit of agent proposals (needs corpus-restricted agent),
+selection-rule reproduction by an independent party, expert-interaction metrics (needs TTC use)

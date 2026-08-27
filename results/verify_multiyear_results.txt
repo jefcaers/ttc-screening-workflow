@@ -1,0 +1,85 @@
+frozen-input md5 indicator_panel.py: e06981a70ec8f847235248b48c69be3b
+frozen-input md5 activation_panel.py: d135889f4de3e1c8cd812150bd755a98
+frozen-input md5 hmm_regime.py: a3eaedeeee4f36fc4f4203e9fd393029
+
+====================================================================================
+HELD-OUT VALIDATION — MULTI-YEAR PREDICTED BELIEF (k=1..5 through A)
+====================================================================================
+
+T1 freeze end-2018 -> Argentina 2019
+  static label at freeze: crisis
+  filtered belief at freeze (info <= end-2018): ortho 0.00 interv 0.99 crisis 0.01
+  k-step belief path (ortho/interv/crisis): y+1:[0.00,0.93,0.07]  y+2:[0.00,0.88,0.12]  y+3:[0.00,0.83,0.17]  y+4:[0.00,0.79,0.21]  y+5:[0.00,0.75,0.25]
+    T 2019:  static 0.052  1-step 0.091  MULTI 0.086  base 0.101  placebo 0.098   | multi vs base x0.86 [below base]  vs placebo x0.88
+
+T2 freeze end-2021 -> Chile 2023
+  static label at freeze: orthodox
+  filtered belief at freeze (info <= end-2021): ortho 0.11 interv 0.87 crisis 0.01
+  k-step belief path (ortho/interv/crisis): y+1:[0.11,0.82,0.06]  y+2:[0.11,0.78,0.11]  y+3:[0.11,0.74,0.16]  y+4:[0.10,0.70,0.20]  y+5:[0.10,0.66,0.24]
+    N 2023:  static 0.016  1-step 0.043  MULTI 0.196  base 0.114  placebo 0.113   | multi vs base x1.72 [BEATS base]  vs placebo x1.74
+    T 2023:  static 0.079  1-step 0.089  MULTI 0.122  base 0.114  placebo 0.113   | multi vs base x1.08 [BEATS base]  vs placebo x1.09
+    L 2023:  static 0.016  1-step 0.026  MULTI 0.092  base 0.045  placebo 0.055   | multi vs base x2.04 [BEATS base]  vs placebo x1.66
+
+====================================================================================
+AGGREGATE (4 held-out events)
+  mean prob:  static 0.041   1-step 0.063   MULTI 0.124   base 0.093   placebo 0.095
+  MULTI beats base rate on 3/4   (1-step: 0/4;  static: 0/4)
+  MULTI beats placebo   on 3/4
+  MULTI beats 1-step    on 3/4
+  mean log-score vs base:  static -1.00   1-step -0.46   MULTI +0.29 nats/event
+
+  PRE-REGISTERED SUCCESS CRITERION (>=2/4 beat base): PASS
+
+Negative control (Australia orthodox, N, freeze end-2018, same multi-year object):
+  multi-year P(N) = 0.028  base = 0.126   (no nationalization occurred; must stay at-or-below base)
+
+====================================================================================
+ROBUSTNESS A — HMM re-fit on pre-cutoff years ONLY (no parameter leakage)
+====================================================================================
+  T1 freeze end-2018 -> Argentina 2019: truncated-fit filtered belief ortho 0.00 interv 0.59 crisis 0.41
+    T 2019:  MULTI(trunc-fit) 0.075  base 0.101   x0.74 [below]
+  T2 freeze end-2021 -> Chile 2023: truncated-fit filtered belief ortho 0.10 interv 0.90 crisis 0.00
+    N 2023:  MULTI(trunc-fit) 0.197  base 0.114   x1.74 [BEATS]
+    T 2023:  MULTI(trunc-fit) 0.124  base 0.114   x1.09 [BEATS]
+    L 2023:  MULTI(trunc-fit) 0.092  base 0.045   x2.05 [BEATS]
+  -> truncated-fit MULTI beats base on 3/4;  mean log-score vs base +0.26 nats/event
+  negative control (trunc-fit): P(N Australia) = 0.026
+
+====================================================================================
+ROBUSTNESS B — window-length sweep (is k=5 doing the work, or the path?)
+====================================================================================
+  P(fire in years 1..k) for each held-out event; base recomputed at same k:
+    Argentina T 2019:  k=1:0.019/0.021   k=2:0.037/0.042   k=3:0.054/0.062   k=4:0.071/0.082   k=5:0.086/0.101    (model/base, * = beats)
+    Chile N 2023:  k=1:0.045/0.024*  k=2:0.086/0.047*  k=3:0.125/0.070*  k=4:0.161/0.092*  k=5:0.196/0.114*   (model/base, * = beats)
+    Chile T 2023:  k=1:0.024/0.024*  k=2:0.048/0.047*  k=3:0.073/0.070*  k=4:0.098/0.092*  k=5:0.122/0.114*   (model/base, * = beats)
+    Chile L 2023:  k=1:0.020/0.009*  k=2:0.039/0.018*  k=3:0.058/0.027*  k=4:0.075/0.036*  k=5:0.092/0.045*   (model/base, * = beats)
+
+Still 4 held-out events: directional, pre-registered, with placebo + control.
+The bar and the construction were both written down (HMM_STATUS.md) before this run.
+CHECK 1 hazard identity (Argentina @2018): max |diff| = 0.00e+00
+CHECK 1 hazard identity (Chile @2021): max |diff| = 0.00e+00
+CHECK 1 hazard identity (Australia @2018): max |diff| = 0.00e+00
+CHECK 1: PASS
+
+CHECK 2 (event: marginal / exact-DP / MC):
+  Argentina T 2019: marginal 0.0865   exact 0.0864   MC 0.0859   (marg-exact +0.0001)
+  Chile N 2023: marginal 0.1955   exact 0.1934   MC 0.1931   (marg-exact +0.0021)
+  Chile T 2023: marginal 0.1225   exact 0.1221   MC 0.1216   (marg-exact +0.0004)
+  Chile L 2023: marginal 0.0917   exact 0.0913   MC 0.0912   (marg-exact +0.0005)
+CHECK 2 DP==MC: PASS
+
+CHECK 3 — pre-registered criterion under EXACT path expectation:
+  Argentina T 2019: exact 0.086  base 0.101  x0.86 [below]
+  Chile N 2023: exact 0.193  base 0.114  x1.70 [BEATS]
+  Chile T 2023: exact 0.122  base 0.114  x1.07 [BEATS]
+  Chile L 2023: exact 0.091  base 0.045  x2.03 [BEATS]
+  exact beats base on 3/4;  mean log-score vs base +0.29 nats/event
+  criterion (>=2/4) under EXACT object: PASS
+  negative control exact P(N Australia) = 0.028 (base 0.126)
+
+  truncated-fit (no-leak) beliefs under EXACT object:
+    Argentina T 2019: exact 0.075  base 0.101 [below]
+    Chile N 2023: exact 0.196  base 0.114 [BEATS]
+    Chile T 2023: exact 0.123  base 0.114 [BEATS]
+    Chile L 2023: exact 0.092  base 0.045 [BEATS]
+    trunc-fit exact beats base on 3/4;  mean log-score +0.26 nats/event

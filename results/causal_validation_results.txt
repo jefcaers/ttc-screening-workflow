@@ -1,0 +1,47 @@
+====================================================================================
+HELD-OUT VALIDATION OF THE CAUSAL ACTIVATION MODEL
+====================================================================================
+
+T1: freeze end-2018 -> Argentina 2019 duty package
+  Argentina regime at end-2018: crisis
+    fired: T in 2019 (Solidarity-Law export-duty hikes)
+      model P(fire in 5yr | crisis)   = 0.052
+      regime-blind base rate               = 0.101   (model lift x0.51)
+      regime-shuffled placebo              = 0.104   (model lift x0.50)
+      log-score gain over base             = -0.67 nats
+
+T2: freeze end-2021 -> Chile 2023 lithium/royalty package
+  Chile regime at end-2021: orthodox
+    fired: N in 2023 (National Lithium Strategy (state control))
+      model P(fire in 5yr | orthodox)   = 0.016
+      regime-blind base rate               = 0.114   (model lift x0.14)
+      regime-shuffled placebo              = 0.113   (model lift x0.14)
+      log-score gain over base             = -1.94 nats
+    fired: T in 2023 (mining royalty law)
+      model P(fire in 5yr | orthodox)   = 0.079
+      regime-blind base rate               = 0.114   (model lift x0.70)
+      regime-shuffled placebo              = 0.111   (model lift x0.71)
+      log-score gain over base             = -0.36 nats
+    fired: L in 2023 (domestic value-add via state JV)
+      model P(fire in 5yr | orthodox)   = 0.016
+      regime-blind base rate               = 0.045   (model lift x0.36)
+      regime-shuffled placebo              = 0.049   (model lift x0.33)
+      log-score gain over base             = -1.02 nats
+
+====================================================================================
+AGGREGATE OVER ALL HELD-OUT EVENTS
+====================================================================================
+  held-out events scored: 4
+  mean model prob 0.041  vs base 0.093  vs placebo 0.094
+  model beats base rate on 0/4 events
+  model beats placebo    on 0/4 events
+  mean log-score gain over base: -1.00 nats/event
+  mean log-score gain over placebo: -1.02 nats/event
+
+------------------------------------------------------------------------------------
+NEGATIVE CONTROL: nationalization in orthodox Australia, freeze end-2018
+  Australia regime: orthodox;  model P(N in 5yr) = 0.019
+  (Australia had no nationalization 2019-2024 -> low probability is correct.)
+
+Small-n directional check with explicit placebo; 4 held-out events cannot
+establish calibration, only consistency with the regime signal. Report as such.

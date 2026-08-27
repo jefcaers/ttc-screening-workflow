@@ -1,0 +1,338 @@
+[
+ [
+  "Country",
+  "Year",
+  "Lever",
+  "Regime",
+  "Named instrument",
+  "Primary source"
+ ],
+ [
+  "Argentina",
+  "2012",
+  "Nationalization",
+  "interventionist",
+  "YPF 51% expropriation (Repsol)",
+  "[CHECK]"
+ ],
+ [
+  "Argentina",
+  "2018",
+  "Export restriction",
+  "crisis",
+  "export duties on mining (DNU 793/2018)",
+  "[CHECK]"
+ ],
+ [
+  "Argentina",
+  "2018",
+  "Tax/royalty",
+  "crisis",
+  "export-duty package",
+  "[CHECK]"
+ ],
+ [
+  "Argentina",
+  "2019",
+  "Tax/royalty",
+  "crisis",
+  "Solidarity Law duty hikes",
+  "[CHECK]"
+ ],
+ [
+  "Australia",
+  "2012",
+  "Tax/royalty",
+  "orthodox",
+  "Minerals Resource Rent Tax (MRRT)",
+  "[CHECK]"
+ ],
+ [
+  "Bolivia",
+  "2007",
+  "Nationalization",
+  "interventionist",
+  "ICSID withdrawal",
+  "[CHECK]"
+ ],
+ [
+  "Bolivia",
+  "2008",
+  "Nationalization",
+  "interventionist",
+  "hydrocarbon/mining nationalizations",
+  "[CHECK]"
+ ],
+ [
+  "Bolivia",
+  "2012",
+  "Nationalization",
+  "interventionist",
+  "BIT abrogation; sector state control",
+  "[CHECK]"
+ ],
+ [
+  "Bolivia",
+  "2017",
+  "Local content",
+  "interventionist",
+  "YLB lithium state monopoly",
+  "[CHECK]"
+ ],
+ [
+  "Chile",
+  "2010",
+  "Tax/royalty",
+  "orthodox",
+  "royalty increase (post-earthquake reconstruction)",
+  "[CHECK]"
+ ],
+ [
+  "Chile",
+  "2023",
+  "Nationalization",
+  "interventionist",
+  "National Lithium Strategy: state control (Codelco/SQM)",
+  "[CHECK]"
+ ],
+ [
+  "Chile",
+  "2023",
+  "Tax/royalty",
+  "interventionist",
+  "mining royalty law",
+  "[CHECK]"
+ ],
+ [
+  "Chile",
+  "2023",
+  "Local content",
+  "interventionist",
+  "domestic value-add via state JV",
+  "[CHECK]"
+ ],
+ [
+  "DRC",
+  "2024",
+  "Export restriction",
+  "crisis",
+  "cobalt export suspension",
+  "[CHECK]"
+ ],
+ [
+  "Ghana",
+  "2023",
+  "Export restriction",
+  "orthodox",
+  "Green Minerals Policy raw-lithium ban",
+  "[CHECK]"
+ ],
+ [
+  "Ghana",
+  "2023",
+  "Local content",
+  "orthodox",
+  "local-processing mandate",
+  "[CHECK]"
+ ],
+ [
+  "Guinea",
+  "2025",
+  "Nationalization",
+  "crisis",
+  "mining-licence revocations",
+  "[CHECK]"
+ ],
+ [
+  "Indonesia",
+  "2009",
+  "Local content",
+  "interventionist",
+  "Law 4/2009 domestic-processing requirement",
+  "[CHECK]"
+ ],
+ [
+  "Indonesia",
+  "2014",
+  "Export restriction",
+  "interventionist",
+  "nickel ore export ban (partial)",
+  "[CHECK]"
+ ],
+ [
+  "Indonesia",
+  "2020",
+  "Export restriction",
+  "interventionist",
+  "nickel ore export ban (full)",
+  "[CHECK]"
+ ],
+ [
+  "Indonesia",
+  "2023",
+  "Export restriction",
+  "interventionist",
+  "bauxite export ban",
+  "[CHECK]"
+ ],
+ [
+  "Mali",
+  "2023",
+  "Tax/royalty",
+  "crisis",
+  "new mining code; state stakes",
+  "[CHECK]"
+ ],
+ [
+  "Mali",
+  "2024",
+  "Nationalization",
+  "crisis",
+  "Barrick/Resolute detentions; asset seizure",
+  "[CHECK]"
+ ],
+ [
+  "Mexico",
+  "2022",
+  "Nationalization",
+  "interventionist",
+  "lithium declared national property (LitioMex)",
+  "[CHECK]"
+ ],
+ [
+  "Mexico",
+  "2023",
+  "Nationalization",
+  "interventionist",
+  "LitioMex concession revocations",
+  "[CHECK]"
+ ],
+ [
+  "Namibia",
+  "2023",
+  "Export restriction",
+  "orthodox",
+  "unprocessed critical-minerals export ban",
+  "[CHECK]"
+ ],
+ [
+  "Namibia",
+  "2023",
+  "Local content",
+  "orthodox",
+  "domestic-refining requirement",
+  "[CHECK]"
+ ],
+ [
+  "Niger",
+  "2024",
+  "Nationalization",
+  "crisis",
+  "Orano uranium permit revocation",
+  "[CHECK]"
+ ],
+ [
+  "Nigeria",
+  "2022",
+  "Export restriction",
+  "interventionist",
+  "raw-ore export ban",
+  "[CHECK]"
+ ],
+ [
+  "Nigeria",
+  "2022",
+  "Local content",
+  "interventionist",
+  "local-processing push",
+  "[CHECK]"
+ ],
+ [
+  "Peru",
+  "2011",
+  "Tax/royalty",
+  "orthodox",
+  "gravamen especial a la mineria",
+  "[CHECK]"
+ ],
+ [
+  "Venezuela",
+  "2011",
+  "Nationalization",
+  "crisis",
+  "gold-sector nationalization",
+  "[CHECK]"
+ ],
+ [
+  "Zambia",
+  "2008",
+  "Tax/royalty",
+  "interventionist",
+  "windfall tax",
+  "[CHECK]"
+ ],
+ [
+  "Zambia",
+  "2019",
+  "Nationalization",
+  "interventionist",
+  "KCM/Vedanta forced liquidation",
+  "[CHECK]"
+ ],
+ [
+  "Zambia",
+  "2019",
+  "Tax/royalty",
+  "interventionist",
+  "mineral royalty increase",
+  "[CHECK]"
+ ],
+ [
+  "Zimbabwe",
+  "2022",
+  "Export restriction",
+  "interventionist",
+  "SI 213/2022 raw-lithium export ban",
+  "[CHECK]"
+ ],
+ [
+  "Zimbabwe",
+  "2022",
+  "Local content",
+  "interventionist",
+  "beneficiation mandate",
+  "[CHECK]"
+ ],
+ [
+  "Zimbabwe",
+  "2023",
+  "Export restriction",
+  "interventionist",
+  "SI 5/2023 base-minerals extension",
+  "[CHECK]"
+ ],
+ [
+  "Zimbabwe",
+  "2025",
+  "Tax/royalty",
+  "interventionist",
+  "10% lithium-concentrate export tax",
+  "[CHECK]"
+ ],
+ [
+  "Zimbabwe",
+  "2025",
+  "Local content",
+  "interventionist",
+  "concentrate export ban announced (2027)",
+  "[CHECK]"
+ ],
+ [
+  "Zimbabwe",
+  "2026",
+  "Export restriction",
+  "interventionist",
+  "raw-mineral/concentrate export suspension",
+  "[CHECK]"
+ ]
+]

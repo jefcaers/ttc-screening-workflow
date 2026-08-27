@@ -1,0 +1,10 @@
+========================================================================================
+INTERVENTION-FUNCTION ABLATION, Olaroz 2009, audited configuration (spec C)
+========================================================================================
+hazards/yr from panel interventionist row: E 0.053, N 0.058, L 0.046 | T blocked (zero statutory headroom)
+
+WITHOUT intervention (published engine)
+  E[NPV]    184.3  CVaR5   -106.4  RAV     63.9  V_stage    177.8  P(NPV>0) 0.87  ->  choice: STAGE
+
+WITH intervention overlay (E duty, N premium, L scope)
+  E[NPV]    118.1  CVaR5   -144.5  RAV     11.8  V_stage    116.9  P(NPV>0) 0.76  ->  choice: STAGE
