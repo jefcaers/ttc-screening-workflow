@@ -1,6 +1,6 @@
-frozen-input md5 indicator_panel.py: e06981a70ec8f847235248b48c69be3b
+frozen-input md5 indicator_panel.py: b3387a442a23494d3351bcac66af3724
 frozen-input md5 activation_panel.py: d135889f4de3e1c8cd812150bd755a98
-frozen-input md5 hmm_regime.py: a3eaedeeee4f36fc4f4203e9fd393029
+frozen-input md5 hmm_regime.py: 0d62be190f71011f4a571c5b0cb4d0f9
 
 ====================================================================================
 HELD-OUT VALIDATION — MULTI-YEAR PREDICTED BELIEF (k=1..5 through A)
