@@ -73,6 +73,8 @@ file — so you can run them from any working directory (`python /path/to/backte
 ├── causal_validation_multiyear.py  Held-out test, multi-year belief path — CANONICAL (+0.29 nats, PASS)
 ├── verify_multiyear.py         Adversarial verification of the canonical run (exact DP + Monte Carlo)
 ├── intervention_ablation.py    do()-operator overlay on the Olaroz decision
+├── robustness_shared_instrument.py  Collapse the 4 two-lever instruments → re-estimate hazards
+├── robustness_heldout.py       Re-run the held-out prediction test under the collapsed panel
 │
 │   FIGURES
 ├── make_results_figs.py        Writes data/rf_data.json + figures/rf01,rf06,rf09,rf10 (+ candidates)
@@ -111,7 +113,13 @@ can run any pillar on its own.
    multi-year belief). `causal_validation_multiyear.py` is the citable result;
    `verify_multiyear.py` re-derives it with an exact dynamic program and a
    400k-path Monte Carlo to confirm the marginal-belief shortcut does not inflate
-   the pass.
+   the pass. `robustness_shared_instrument.py` and `robustness_heldout.py` test the
+   panel coding: four instruments each activate two levers at once (an export ban
+   paired with a local-content mandate). Collapsing them to one event each leaves
+   the export- and nationalization-lever hazards unchanged, lowers the boom
+   multiplier from 2.6× to 2.1×, moves only the local-content hazard, and — because
+   the affected events post-date every freeze cutoff — leaves the held-out
+   prediction result unchanged (3/4, ~+0.3 nats, PASS under both panels).
 
 A suggested full run-order is in `results/` (each `*_results.txt` is the reference
 stdout for one script); within a pillar, run the base study first, then its

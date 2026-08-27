@@ -1,0 +1,45 @@
+========================================================================
+SHARED-INSTRUMENT ROBUSTNESS  (baseline 41 events  ->  collapsed 36)
+========================================================================
+Dropped (secondary facet of a shared instrument):
+   - Argentina 2018 [T]
+   - Chile 2023 [L]
+   - Ghana 2023 [L]
+   - Namibia 2023 [L]
+   - Zimbabwe 2022 [L]
+
+Events per lever (E export, N nationalization, L local-content, T tax):
+   lever   baseline  collapsed
+   E             11         11
+   N             12         12
+   L              8          4
+   T             10          9
+
+P(lever within 5-yr window | regime)  baseline -> collapsed:
+  orthodox:
+     E:  0.062 -> 0.062  (d=+0.000)
+     N:  0.013 -> 0.013  (d=+0.000)
+     L:  0.062 -> 0.013  (d=-0.049)   <-- change
+     T:  0.086 -> 0.086  (d=+0.000)
+  interventionist:
+     E:  0.235 -> 0.235  (d=+0.000)
+     N:  0.263 -> 0.263  (d=+0.000)
+     L:  0.207 -> 0.147  (d=-0.060)   <-- change
+     T:  0.147 -> 0.147  (d=+0.000)
+  crisis:
+     E:  0.144 -> 0.144  (d=+0.000)
+     N:  0.247 -> 0.247  (d=+0.000)
+     L:  0.030 -> 0.030  (d=+0.000)
+     T:  0.197 -> 0.144  (d=-0.053)   <-- change
+
+Probit intercept alpha, largest shifts:
+   orthodox        L:  -1.54 -> -2.24  (|d|=0.70)
+   interventionist L:  -0.82 -> -1.05  (|d|=0.23)
+   crisis          T:  -0.85 -> -1.06  (|d|=0.21)
+   orthodox        T:  -1.37 -> -1.37  (|d|=0.00)
+   orthodox        N:  -2.24 -> -2.24  (|d|=0.00)
+   orthodox        E:  -1.54 -> -1.54  (|d|=0.00)
+
+Price-boom multiplier (beta):  baseline 2.59x  ->  collapsed 2.14x
+   (boom rate 0.211->0.167 /cy;  normal 0.081->0.078 /cy)
+========================================================================

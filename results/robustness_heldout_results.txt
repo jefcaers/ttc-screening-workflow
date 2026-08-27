@@ -1,0 +1,50 @@
+
+===== HELD-OUT under BASELINE panel (41 events) =====
+  HELD-OUT VALIDATION — MULTI-YEAR PREDICTED BELIEF (k=1..5 through A)
+  T1 freeze end-2018 -> Argentina 2019
+  T 2019:  static 0.052  1-step 0.091  MULTI 0.086  base 0.101  placebo 0.098   | multi vs base x0.86 [below base]  vs placebo x0.88
+  T2 freeze end-2021 -> Chile 2023
+  N 2023:  static 0.016  1-step 0.043  MULTI 0.196  base 0.114  placebo 0.113   | multi vs base x1.72 [BEATS base]  vs placebo x1.74
+  T 2023:  static 0.079  1-step 0.089  MULTI 0.122  base 0.114  placebo 0.113   | multi vs base x1.08 [BEATS base]  vs placebo x1.09
+  L 2023:  static 0.016  1-step 0.026  MULTI 0.092  base 0.045  placebo 0.055   | multi vs base x2.04 [BEATS base]  vs placebo x1.66
+  mean prob:  static 0.041   1-step 0.063   MULTI 0.124   base 0.093   placebo 0.095
+  MULTI beats base rate on 3/4   (1-step: 0/4;  static: 0/4)
+  MULTI beats placebo   on 3/4
+  MULTI beats 1-step    on 3/4
+  mean log-score vs base:  static -1.00   1-step -0.46   MULTI +0.29 nats/event
+  PRE-REGISTERED SUCCESS CRITERION (>=2/4 beat base): PASS
+  T1 freeze end-2018 -> Argentina 2019: truncated-fit filtered belief ortho 0.00 interv 0.59 crisis 0.41
+  T 2019:  MULTI(trunc-fit) 0.075  base 0.101   x0.74 [below]
+  T2 freeze end-2021 -> Chile 2023: truncated-fit filtered belief ortho 0.10 interv 0.90 crisis 0.00
+  N 2023:  MULTI(trunc-fit) 0.197  base 0.114   x1.74 [BEATS]
+  T 2023:  MULTI(trunc-fit) 0.124  base 0.114   x1.09 [BEATS]
+  L 2023:  MULTI(trunc-fit) 0.092  base 0.045   x2.05 [BEATS]
+  -> truncated-fit MULTI beats base on 3/4;  mean log-score vs base +0.26 nats/event
+  Chile N 2023:  k=1:0.045/0.024*  k=2:0.086/0.047*  k=3:0.125/0.070*  k=4:0.161/0.092*  k=5:0.196/0.114*   (model/base, * = beats)
+  Chile T 2023:  k=1:0.024/0.024*  k=2:0.048/0.047*  k=3:0.073/0.070*  k=4:0.098/0.092*  k=5:0.122/0.114*   (model/base, * = beats)
+  Chile L 2023:  k=1:0.020/0.009*  k=2:0.039/0.018*  k=3:0.058/0.027*  k=4:0.075/0.036*  k=5:0.092/0.045*   (model/base, * = beats)
+
+===== HELD-OUT under COLLAPSED panel (36 events) =====
+  HELD-OUT VALIDATION — MULTI-YEAR PREDICTED BELIEF (k=1..5 through A)
+  T1 freeze end-2018 -> Argentina 2019
+  T 2019:  static 0.052  1-step 0.091  MULTI 0.086  base 0.101  placebo 0.098   | multi vs base x0.86 [below base]  vs placebo x0.88
+  T2 freeze end-2021 -> Chile 2023
+  N 2023:  static 0.016  1-step 0.043  MULTI 0.196  base 0.114  placebo 0.113   | multi vs base x1.72 [BEATS base]  vs placebo x1.74
+  T 2023:  static 0.079  1-step 0.085  MULTI 0.110  base 0.097  placebo 0.099   | multi vs base x1.14 [BEATS base]  vs placebo x1.12
+  L 2023:  static 0.016  1-step 0.026  MULTI 0.092  base 0.045  placebo 0.055   | multi vs base x2.04 [BEATS base]  vs placebo x1.66
+  mean prob:  static 0.041   1-step 0.061   MULTI 0.121   base 0.089   placebo 0.091
+  MULTI beats base rate on 3/4   (1-step: 0/4;  static: 0/4)
+  MULTI beats placebo   on 3/4
+  MULTI beats 1-step    on 3/4
+  mean log-score vs base:  static -0.96   1-step -0.43   MULTI +0.31 nats/event
+  PRE-REGISTERED SUCCESS CRITERION (>=2/4 beat base): PASS
+  T1 freeze end-2018 -> Argentina 2019: truncated-fit filtered belief ortho 0.00 interv 0.59 crisis 0.41
+  T 2019:  MULTI(trunc-fit) 0.075  base 0.101   x0.74 [below]
+  T2 freeze end-2021 -> Chile 2023: truncated-fit filtered belief ortho 0.10 interv 0.90 crisis 0.00
+  N 2023:  MULTI(trunc-fit) 0.197  base 0.114   x1.74 [BEATS]
+  T 2023:  MULTI(trunc-fit) 0.111  base 0.097   x1.15 [BEATS]
+  L 2023:  MULTI(trunc-fit) 0.092  base 0.045   x2.05 [BEATS]
+  -> truncated-fit MULTI beats base on 3/4;  mean log-score vs base +0.28 nats/event
+  Chile N 2023:  k=1:0.045/0.024*  k=2:0.086/0.047*  k=3:0.125/0.070*  k=4:0.161/0.092*  k=5:0.196/0.114*   (model/base, * = beats)
+  Chile T 2023:  k=1:0.023/0.020*  k=2:0.045/0.040*  k=3:0.067/0.059*  k=4:0.089/0.078*  k=5:0.110/0.097*   (model/base, * = beats)
+  Chile L 2023:  k=1:0.020/0.009*  k=2:0.039/0.018*  k=3:0.058/0.027*  k=4:0.075/0.036*  k=5:0.092/0.045*   (model/base, * = beats)
