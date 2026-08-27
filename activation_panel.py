@@ -91,7 +91,7 @@ EVENTS = [
     ("Mali",2024,"N","Barrick/Resolute detentions; asset seizure"),
     ("Niger",2024,"N","Orano uranium permit revocation"),
     ("Guinea",2025,"N","mining-licence revocations"),
-    ("DRC",2024,"E","cobalt export suspension"),
+    ("DRC",2025,"E","cobalt export suspension"),
     ("Venezuela",2011,"N","gold-sector nationalization"),
     ("Australia",2012,"T","Minerals Resource Rent Tax (MRRT)"),
     ("Chile",2010,"T","royalty increase (post-earthquake reconstruction)"),
